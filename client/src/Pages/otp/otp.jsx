@@ -72,7 +72,7 @@ function Otp({ otp }) {
         <input
           type="submit"
           value={"Submit"}
-          onClick={()=>{verifyOtp(};otp(false}
+          onClick={()=>{verifyOtp(};otp(false)}
           className="ibtn"
         />
       </div>
